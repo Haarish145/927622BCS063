@@ -1,6 +1,6 @@
 import React from 'react';
 
-const STOCKS = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA'];
+const STOCKS = ['MSFT'];
 
 function StockSelector({ selectedStocks, onChange }) {
   const toggleStock = (symbol) => {
