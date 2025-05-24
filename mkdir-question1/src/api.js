@@ -1,4 +1,4 @@
-const API_KEY = 'demo'; // Use your own API key if available
+const API_KEY = 'demo'; 
 const BASE_URL = 'https://www.alphavantage.co/query';
 
 export async function fetchStockPrice(symbol) {
